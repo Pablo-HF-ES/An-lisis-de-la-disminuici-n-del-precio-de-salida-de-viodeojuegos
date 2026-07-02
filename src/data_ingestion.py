@@ -1,5 +1,7 @@
 import pandas as pd
+print("Versión de Pandas:", pd.__version__)
 import os
+print("Versión de OS:", os.name)
 
 def data_ingestion(input_path, output_path):
     

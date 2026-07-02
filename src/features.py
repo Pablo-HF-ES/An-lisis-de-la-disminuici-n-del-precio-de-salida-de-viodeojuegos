@@ -1,6 +1,9 @@
 import pandas as pd
 import os
 import joblib
+print("Versión de Joblib:", joblib.__version__)
+import sklearn
+print("Versión de scikit-learn:", sklearn.__version__)
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
